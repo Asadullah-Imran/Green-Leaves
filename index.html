@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Website</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- bootstrap css (script part)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header>
+      <div class="header-1">
+        <a href="#" class="logo"
+          ><i class="fas fa-shopping-basket"></i>Green Leaves</a
+        >
+        <form action="" class="search-box-container">
+          <input type="search" id="search-box" placeholder="Search here..." />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+      </div>
+      <div class="header-2">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#category">category</a>
+          <a href="#product">product</a>
+          <a href="#deal">deal</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-user-circle"></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="image">
+        <img src="images/images1.png" alt="" />
+      </div>
+      <div class="content">
+        <span>fresh and organic</span>
+        <h3>your daily need product</h3>
+        <a href="" class="btn">get started</a>
+      </div>
+    </section>
+    <!-- home secetion ends  -->
+
+    <!-- banner section starts  -->
+    <section class="banner-container">
+      <div class="banner">
+        <img src="images/banner-1.jpg" alt="" />
+        <div class="content">
+          <h3>special offer</h3>
+          <span>upto 40% off</span>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="images/banner-2.jpg" alt="" />
+        <div class="content">
+          <h3>limited offer</h3>
+          <span>upto 50% off</span>
+          <a href="#" class="btn">check out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section ends  -->
+
+    <!-- category section starts -->
+    <section class="category" id="category">
+      <h1 class="heading">shop by <span>category</span></h1>
+      <div class="box-container">
+        <!-- <div class="box">
+            <h3></h3>
+            <p>upto 50% off</p>
+            <img src="images/category-2.jpg" alt="">
+            <a href="#" class="btn">shop now</a>
+        </div> -->
+        <div class="box">
+          <h3>vegetables</h3>
+          <p>upto 44% off</p>
+          <img src="images/category-1.jpg" alt="" />
+          <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+          <h3>meat</h3>
+          <p>upto 35% off</p>
+          <img src="images/category-3.jpg" alt="" />
+          <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="box">
+          <h3>fruits</h3>
+          <p>upto 33% off</p>
+          <img src="images/category-4.jpg" alt="" />
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends  -->
+
+    <!-- product section starts  -->
+    <section class="product" id="product">
+      <h1 class="heading">latest <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product1.jpg" alt="" />
+          <h3>Organic Tomato</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-23%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product2.jpg" alt="" />
+          <h3>organic banana</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product3.jpg" alt="" />
+          <h3>organic apple</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product4.jpg" alt="" />
+          <h3>organic Egg</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /Dozen </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product5.jpg" alt="" />
+          <h3>organic carrot</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <!-- <div class="box">
+            <span class="discount">-33%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="images/product6.jpg" alt="">
+            <h3>organic bruccoli </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">
+                $10.50 <span>$13.20</span>
+            </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div> -->
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product7.jpg" alt="" />
+          <h3>organic Potato</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product8.jpg" alt="" />
+          <h3>organic Onion</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product9.jpg" alt="" />
+          <h3>fresh chicken wings</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product10.jpg" alt="" />
+          <h3>fresh chicken drumsticks</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">$10.50 <span>$13.20</span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends  -->
+
+    <!-- deal section starts  -->
+    <section class="deal" id="deal">
+      <div class="content">
+        <h3 class="title">deal of the day</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+          natus assumenda ad facere! Fuga officia magni repellat nihil, sequi
+          illo! Debitis accusamus facere eligendi, nesciunt est cupiditate
+          labore voluptatum dicta?
+        </p>
+        <div class="count-down">
+          <div class="box">
+            <h3 id="day">00</h3>
+            <span>day</span>
+          </div>
+          <div class="box">
+            <h3 id="hour">00</h3>
+            <span>hour</span>
+          </div>
+          <div class="box">
+            <h3 id="minute">00</h3>
+            <span>minute</span>
+          </div>
+          <div class="box">
+            <h3 id="second">00</h3>
+            <span>second</span>
+          </div>
+        </div>
+        <a href="#" class="btn">check the deal</a>
+      </div>
+    </section>
+
+    <!-- deal section ends  -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact </span>us</h1>
+      <form action="https://formspree.io/f/mpzgdrqo" method="POST">
+        <div class="inputBox">
+          <input type="text" name="text" placeholder="name" />
+          <input type="email" name="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <input type="number" name="number" placeholder="phone no" />
+          <input type="text" name="text" placeholder="subject" />
+        </div>
+        <textarea
+          placeholder="message"
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+
+      <!-- <form action="https://formspree.io/f/mpzgdrqo" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        
+        <button type="submit">Send</button>
+      </form> -->
+    </section>
+
+    <!-- contact section ends  -->
+
+    <!-- custom js file link      -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
