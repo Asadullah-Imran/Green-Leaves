@@ -17,7 +17,7 @@ window.onscroll =() =>{
 }
 // ______countdown function start
 
-let countDate = new Date('april 4, 2023 00:00:00').getTime();
+let countDate = new Date('november 4, 2023 00:00:00').getTime();
 
 function CountDown(){
     let now = new Date().getTime();
